@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>테이블과 폼</h1>
+    <h2>성적표</h2>
+    <table border="1">
+        <tr>
+            <th>이름</th>
+            <th>국어</th>
+            <th>영어</th>
+            <th>수학</th>
+        </tr>
+        <tr>
+            <th>김철수</th>
+            <th>85</th>
+            <th>90</th>
+            <th>75</th>
+        </tr>
+        <tr>
+            <th>이영희</th>
+            <th>90</th>
+            <th>85</th>
+            <th>95</th>
+        </tr>
+    </table>
+    <h2>가입 양식</h2>
+    <form action="#" method="post">
+        <div>
+            <label1 for="username">이름:</label1>
+            <input type="text" id="username" name="username"
+            required>
+        </div>
+        <div>
+            <label1 for="email">이메일:</label1>
+            <input type="text" id="email" name="email"
+            required>
+        </div>
+        <div>
+            <input type="checkbox">이용약관 동의
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">남성</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">여성</label>
+        </div>
+        <div>
+            <label for="country">국가:</label>
+            <select id="country" name="country">
+                <option value="">선택하세요</option>"
+                <option value="">한국</option>"
+                <option value="">미국</option>"
+            </select>
+        </div>
+        <div>
+            <label for="massage"> 메세지:</label>
+            <textarea id="massage" name="massage" rows="4" cols="30">  
+            </textarea>
+        </div>
+        <div>
+            <button type="submit">제출</button>
+            <button type="reset">초기화</button>
+        </div>
+</body>
+</html>
