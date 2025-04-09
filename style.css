@@ -1,0 +1,49 @@
+p{
+    color:rgba(184, 233, 11, 0.795);
+}
+.head{
+    color:grey
+}
+.head-title{
+    border: 10px solid red;
+    font-family: 'SinchonRhapsody';
+    text-align: center;
+    width: 50px;
+    display: flex;
+    flex-wrap: wrap; = flex-direction: column;
+}
+.habbit1{
+    border: 5px inset blue;
+    margin: 50px;
+    text-align: center;
+    font-family: 'GowunBatang-Regular';
+    display: flex;
+    justify-content:end;
+}
+.author{
+    border: 20px solid green;
+    margin: 80px;
+    font-family: 'SinchonRhapsody';
+}
+.movie {
+    border: 15px inset yellow;
+    font-family: 'SinchonRhapsody';
+    font-family: 'GowunBatang-Regular';
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+}
+
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SinchonRhapsody';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/SinchonRhapsody.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

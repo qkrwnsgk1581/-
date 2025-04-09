@@ -1,0 +1,56 @@
+.name{
+    font-family: 'SunBatang-Light';
+    font-size: x-large;
+    background-color: bisque;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.one{
+    font-family: 'SunBatang-Light';
+    font-size: larger;
+    color: blue;
+}
+.aabb{
+    font-family: 'SunBatang-Light';
+    font-size: medium;
+}
+.self{
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-family: 'SunBatang-Light';
+    text-align: center;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+}
+.t1{
+    font-size: 15px;
+}
+.t2{
+    height: 30px;
+}
+.t3{
+    height: 22px;
+}
+.me{
+    display: flex;
+    justify-content: center;
+}
+@font-face {
+    font-family: 'SunBatang-Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/SunBatang-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: #e4e6d9;
+  }
